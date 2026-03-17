@@ -2,7 +2,9 @@
   <div class="footer-wrapper">
     <div class="content-max-width">
       <footer class="footer">
-        <div class="footer__title newsletters-title">Get our newsletters</div>
+        <div class="footer__title newsletters-title">
+          Get our newsletters
+        </div>
         <base-input-text
           placeholder="Your email"
           class="newsletters-input"
@@ -12,9 +14,15 @@
         <div class="footer__link-col">
           <div class="footer__title">Company</div>
           <div class="footer__link-list">
-            <router-link class="footer__link" to="/about">About</router-link>
-            <router-link class="footer__link" to="/store">Store</router-link>
-            <router-link class="footer__link" to="/faq">FAQ</router-link>
+            <router-link class="footer__link" to="/about"
+              >About</router-link
+            >
+            <router-link class="footer__link" to="/store"
+              >Store</router-link
+            >
+            <router-link class="footer__link" to="/faq"
+              >FAQ</router-link
+            >
           </div>
         </div>
 
@@ -36,7 +44,9 @@
         <div class="footer__link-col">
           <div class="footer__title">Follow us</div>
           <div class="footer__link-list">
-            <router-link class="footer__link" to="/instagram"
+            <router-link
+              class="footer__link"
+              to="/instagram"
               >Instagram</router-link
             >
             <router-link class="footer__link" to="/facebook"
@@ -50,25 +60,36 @@
 
         <div class="footer__logo">SPROUT</div>
         <p class="footer__company">
-          <span class="footer__brand">Eco Food Market</span> SPROUT Good Ltd.
+          <span class="footer__brand">Eco Food Market</span>
+          SPROUT Good Ltd.
         </p>
         <div class="footer__link-list legal-link-list">
-          <router-link class="footer__link legal-link" to="/tyc"
+          <router-link
+            class="footer__link legal-link"
+            to="/tyc"
             >Terms & Conditions</router-link
           >
-          <router-link class="footer__link legal-link" to="/tyc"
+          <router-link
+            class="footer__link legal-link"
+            to="/tyc"
             >Privacy Policy</router-link
           >
         </div>
-        <p class="footer__copyright">2021 © All rights reserved</p>
+        <p class="footer__copyright">
+          2021 © All rights reserved
+        </p>
       </footer>
     </div>
     <p class="credits">
       Original concept and UI design by
-      <a href="https://www.behance.net/klochocheek" target="_blank"
+      <a
+        href="https://www.behance.net/klochocheek"
+        target="_blank"
         >Julia Klochok</a
       >. Developed by
-      <a href="https://fictolab.vercel.app" target="_blank">Luis Velásquez</a>.
+      <a href="https://laurenv.me" target="_blank"
+        >Lauren Vallejo</a
+      >.
     </p>
   </div>
 </template>
