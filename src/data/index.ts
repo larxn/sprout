@@ -4,15 +4,13 @@ export default {
       id: 1,
       title: 'Watermelon',
       subtitle: 'Recipes with Anna Grace',
-      imageURL:
-        'https://firebasestorage.googleapis.com/v0/b/fictolab.appspot.com/o/sprout%2Fwatermelon.png?alt=media&token=cf2c61b2-5ce5-4918-bc04-bb8bd0e02ddb',
+      imageURL: '/img/products/watermelon.png',
     },
     {
       id: 2,
       title: 'Asparagus',
       subtitle: 'Recipes with Anna Grace',
-      imageURL:
-        'https://firebasestorage.googleapis.com/v0/b/fictolab.appspot.com/o/sprout%2Fasparagus.png?alt=media&token=ef611b39-09b0-4a25-8579-45cea2ac1e0e',
+      imageURL: '/img/products/asparagus.png',
     },
   ],
 
@@ -24,23 +22,22 @@ export default {
         'Especially suitable for athletes, but also ideal for preventing fatigue and loss of productivity',
       callToAction: 'Shop now',
       callToActionURL: '#',
-      imageURL:
-        'https://firebasestorage.googleapis.com/v0/b/fictolab.appspot.com/o/sprout%2Fsnacks.png?alt=media&token=163ce1ac-d710-4a91-ab6e-4c59590d47d4',
+      imageURL: '/img/products/snacks.png',
     },
     coupon: {
       type: 'coupon',
       title: 'Spring coupon',
       coupon: 'FRUITS2021',
       discount: 10,
-      description: 'Gives 10% off all seasonal fruits on your first purchase.',
+      description:
+        'Gives 10% off all seasonal fruits on your first purchase.',
     },
   },
 
   saleProducts: [
     {
       id: 1,
-      imageURL:
-        'https://firebasestorage.googleapis.com/v0/b/fictolab.appspot.com/o/sprout%2Fblackberry-bluestem.png?alt=media',
+      imageURL: '/img/products/blackberry-bluestem.png',
       name: 'Blackberry bluestem',
       price: [
         {
@@ -57,8 +54,7 @@ export default {
     },
     {
       id: 2,
-      imageURL:
-        'https://firebasestorage.googleapis.com/v0/b/fictolab.appspot.com/o/sprout%2Fblueberries.png?alt=media',
+      imageURL: '/img/products/blueberries.png',
       name: 'Blueberries',
       price: [
         {
@@ -75,8 +71,7 @@ export default {
     },
     {
       id: 3,
-      imageURL:
-        'https://firebasestorage.googleapis.com/v0/b/fictolab.appspot.com/o/sprout%2Fwhite-grapes-muscat.png?alt=media',
+      imageURL: '/img/products/white-grapes-muscat.png',
       name: 'White grapes muscat',
       price: [
         {
@@ -93,8 +88,7 @@ export default {
     },
     {
       id: 4,
-      imageURL:
-        'https://firebasestorage.googleapis.com/v0/b/fictolab.appspot.com/o/sprout%2Fyellow-buckthorn.png?alt=media',
+      imageURL: '/img/products/yellow-buckthorn.png',
       name: 'Yellow buckthorn',
       price: [
         {
@@ -111,8 +105,7 @@ export default {
     },
     {
       id: 5,
-      imageURL:
-        'https://firebasestorage.googleapis.com/v0/b/fictolab.appspot.com/o/sprout%2Fwhite-adriatic-figs.png?alt=media',
+      imageURL: '/img/products/white-adriatic-figs.png',
       name: 'White adriatic figs',
       price: [
         {
@@ -129,8 +122,7 @@ export default {
     },
     {
       id: 6,
-      imageURL:
-        'https://firebasestorage.googleapis.com/v0/b/fictolab.appspot.com/o/sprout%2Fnatural-mango.png?alt=media',
+      imageURL: '/img/products/natural-mango.png',
       name: 'Natural mango King size',
       price: [
         {
@@ -147,8 +139,7 @@ export default {
     },
     {
       id: 7,
-      imageURL:
-        'https://firebasestorage.googleapis.com/v0/b/fictolab.appspot.com/o/sprout%2Fgold-apricots.png?alt=media',
+      imageURL: '/img/products/gold-apricots.png',
       name: 'Gold apricots Jumbo Limited edition',
       price: [
         {
@@ -168,8 +159,7 @@ export default {
   newProducts: [
     {
       id: 10,
-      imageURL:
-        'https://firebasestorage.googleapis.com/v0/b/fictolab.appspot.com/o/sprout%2Fraisins-from-red-grapes.png?alt=media',
+      imageURL: '/img/products/raisins-from-red-grapes.png',
       name: 'Raisins from red grapes Extra series',
       price: [{ name: 'regular', price: 4 }],
       unit: 'pound',
@@ -177,8 +167,7 @@ export default {
     },
     {
       id: 11,
-      imageURL:
-        'https://firebasestorage.googleapis.com/v0/b/fictolab.appspot.com/o/sprout%2Fpistachios.png?alt=media',
+      imageURL: '/img/products/pistachios.png',
       name: 'Roasted peeled pistachios',
       price: [{ name: 'regular', price: 10 }],
       unit: 'pound',
@@ -186,8 +175,7 @@ export default {
     },
     {
       id: 12,
-      imageURL:
-        'https://firebasestorage.googleapis.com/v0/b/fictolab.appspot.com/o/sprout%2Fred-beans.png?alt=media',
+      imageURL: '/img/products/red-beans.png',
       name: 'Red beans',
       price: [{ name: 'regular', price: 7 }],
       unit: 'pound',
@@ -195,8 +183,7 @@ export default {
     },
     {
       id: 13,
-      imageURL:
-        'https://firebasestorage.googleapis.com/v0/b/fictolab.appspot.com/o/sprout%2Fassorted.png?alt=media',
+      imageURL: '/img/products/assorted.png',
       name: 'Assorted: black, red, spotty and string beans',
       price: [{ name: 'regular', price: 9 }],
       unit: 'pound',
@@ -204,8 +191,7 @@ export default {
     },
     {
       id: 14,
-      imageURL:
-        'https://firebasestorage.googleapis.com/v0/b/fictolab.appspot.com/o/sprout%2Fblack-beans.png?alt=media',
+      imageURL: '/img/products/black-beans.png',
       name: 'Black beans',
       price: [{ name: 'regular', price: 12 }],
       unit: 'pound',
@@ -213,8 +199,7 @@ export default {
     },
     {
       id: 15,
-      imageURL:
-        'https://firebasestorage.googleapis.com/v0/b/fictolab.appspot.com/o/sprout%2Fchocolate-apricots.png?alt=media',
+      imageURL: '/img/products/chocolate-apricots.png',
       name: 'Chocolate apricots',
       price: [
         {
@@ -227,8 +212,7 @@ export default {
     },
     {
       id: 16,
-      imageURL:
-        'https://firebasestorage.googleapis.com/v0/b/fictolab.appspot.com/o/sprout%2Fseedless-prune.png?alt=media',
+      imageURL: '/img/products/seedless-prune.png',
       name: 'Seedless prune',
       price: [
         {
